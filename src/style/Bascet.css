@@ -1,0 +1,142 @@
+ul.bascet{
+width: 25%;
+}
+
+ul.chek{
+    float: right;
+    margin-right: 0px;
+    width: 25%;
+}
+
+.bascet a {
+    pading: 10px;
+    width: 100%;
+    height: 100%;
+    font-size: 106%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #fbffdf;
+}
+
+.bascet li {
+    display:block;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    flex-grow: 1;
+    font-weight: bold;
+    
+    border-radius: 5px;
+}
+
+.chek li {
+    display:block;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    flex-grow: 1;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+ul.bascet a:hover{
+    background: linear-gradient(rgb(239, 239, 239) 80%, rgb(251, 255, 223));
+    color: #333333;
+    text-shadow: 2px 2px 0px white;
+    flex-grow: 1;
+}
+
+
+section.list {
+    /* float: left;
+    margin-left: 10%;
+    width: 80%;
+    height: 100em;
+    border-radius: 10px;
+    background: rgb(175, 175, 175, 0.6);
+    margin-top: 1em; */
+    display: flex;
+    flex-direction: column; display: flex;
+    width: 80%;
+}
+
+
+h3 {
+  text-align: center;
+  color: #e8f0ae;
+  flex-grow: 2;
+}
+
+pre {
+  text-align: left;
+  color: #fbffdf;
+  flex-grow: 0;
+}
+
+img {
+  text-align: left;
+  flex-grow: 1;
+}
+div.item2{
+    float:  left;
+    width: 100%;
+    align-content: space-evenly;
+    justify-content: space-between;
+    align-self: start;
+    text-decoration: none;
+    display: block;
+    margin-left: 1em;
+    align-self: start;
+    display:  flex;
+    flex-direction: column;
+    margin: 3.5%;
+    border: 1px solid transparent;
+    background: none;
+}
+
+div.item2:hover{
+    border-top: 1px solid #fbffdf;
+    border-right: 1px solid #fbffdf;
+    border-left: 1px solid #fbffdf;
+    position:static;
+}
+
+#counter {
+    display: block;
+    width: 1em;
+    height: 1em;
+    font-size: 100%;
+    padding: 0px;
+    float:  right;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+section {
+    margin: 0px;
+    margin-right: 10px;
+}
+
+#plus {
+    width: 1em;
+    height: 1em;
+    font-size: 100%;
+    padding: 0px;
+    float:  right;
+}
+
+#minus {
+    width: 1em;
+    height: 1em;
+    width: 1em;
+    height: 1em;
+    font-size: 100%;
+    padding: 0px;
+    float:  right;
+}

@@ -1,0 +1,26 @@
+.container{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    padding: 10px;
+    text-align: center;
+    background-color: darkgray;
+    border: 1px dimgrey;
+    border-radius: 5px;
+}
+
+.outPut{
+    margin-bottom: 1rem;
+    background: #fff;
+    height: 50px;
+}
+
+.input{
+    text-align: right;
+}
+
+.buttons{
+    margin: 40px;
+    width: 7rem;
+}
